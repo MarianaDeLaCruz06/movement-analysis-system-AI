@@ -1,7 +1,7 @@
 # **Entrega 1 - Proyecto Final APO 3**
 
 ## **Sistema de Anotación de Video para Análisis de Actividades Humanas**
-$$$$
+
 **Integrantes del grupo:**
 
 *   Mariana De La Cruz - A00399618
@@ -24,9 +24,13 @@ El proyecto aborda dos fases principales:
 2. Un **análisis avanzado con landmarks**, implementado mediante **MediaPipe Pose**, donde se extraen coordenadas articulares y se calculan métricas biomecánicas (inclinación de hombros, velocidad de cadera, ángulo de rodilla, etc.) para estudiar el comportamiento corporal con mayor precisión.
 
 Todos los resultados y materiales se organizan en la carpeta **`APO3_EntregaFinal`**, que incluye:
+
 📂 **videos/** — grabaciones originales realizadas con cámara RGB (teléfono móvil).
+
 📂 **procesados/** — videos con el esqueleto 3D superpuesto y análisis visual de pose.
+
 📂 **landmarks/** — archivos CSV con las coordenadas de las 33 articulaciones detectadas por frame.
+
 📂 **resultados/** — reportes estadísticos, métricas globales y visualizaciones generadas durante el análisis.
 
 
