@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+Entrega3/venv/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints
+
+# Datos grandes (no necesarios en producción)
+APO3_EntregaFinal/
+*.mp4
+*.avi
+*.mov
+Entrega3/datasets/
+Entrega3/datasets-20251116T191824Z-1-001/
+
+# Documentación (no necesaria en producción)
+*.md
+*.html
+!requirements.txt
+!Entrega3/requirements.txt
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Scripts de desarrollo (solo necesarios en Colab)
+Entrega3/entrega_proyectofinal_apo3_movementanalysis.py
+Entrega3/guardar_modelos.py
+Entrega3/reentrenar_svm_con_probabilidades.py
+
+# Archivos de configuración locales
+Entrega3/.streamlit/
+nixpacks.toml
+Entrega3/Procfile
+Entrega3/railway.toml
+
+# Notebooks
+Entrega1/
+Entrega2/
+
