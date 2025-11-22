@@ -14,6 +14,7 @@ Departamento de Computación y Sistemas Inteligentes
 * Juan Camilo Amorocho - A00399789
 
 ---
+### **Link video:** https://youtu.be/vb6bch6_SzU
 ### **Link aplicacion** https://web-production-9fa92.up.railway.app/
 ### **Descripción del proyecto**
 
