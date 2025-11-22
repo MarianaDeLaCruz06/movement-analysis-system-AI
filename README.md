@@ -14,7 +14,7 @@ Departamento de Computación y Sistemas Inteligentes
 * Juan Camilo Amorocho - A00399789
 
 ---
-
+### **Link aplicacion** https://web-production-9fa92.up.railway.app/
 ### **Descripción del proyecto**
 
 El repositorio **`movement-analysis-system-AI`** contiene el desarrollo completo del proyecto final del curso **APO 3**, cuyo objetivo es construir un sistema automatizado para el análisis y clasificación de actividades humanas a partir de video, integrando visión por computadora, aprendizaje automático y análisis biomecánico.
@@ -338,4 +338,4 @@ Este proyecto es parte del curso APO 3 y es de uso académico.
 
 ---
 
-**Última actualización:** Enero 2025
+**Última actualización:** Noviembre 2025
