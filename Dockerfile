@@ -47,15 +47,10 @@ EXPOSE 8501
 
 # Variables de entorno
 ENV PYTHONUNBUFFERED=1
-ENV STREAMLIT_SERVER_PORT=8501
 ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
 ENV STREAMLIT_SERVER_HEADLESS=true
 
 # Comando de inicio
-CMD streamlit run app_clasificador_movimiento.py \
-    --server.port=${PORT:-8501} \
-    --server.address=0.0.0.0 \
-    --server.headless=true \
-    --server.fileWatcherType=none \
-    --browser.gatherUsageStats=false
+# Railway asigna PORT automáticamente, usamos $PORT en el comando
+CMD streamlit run app_clasificador_movimiento.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true --server.fileWatcherType=none --browser.gatherUsageStats=false
 
