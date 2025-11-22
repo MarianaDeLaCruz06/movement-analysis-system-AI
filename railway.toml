@@ -3,6 +3,8 @@ builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
+# Railway usará el CMD del Dockerfile, pero este comando es un fallback
+# No incluir 'cd' porque el WORKDIR del Dockerfile ya está en /app
 healthcheckPath = "/"
 healthcheckTimeout = 100
 restartPolicyType = "ON_FAILURE"

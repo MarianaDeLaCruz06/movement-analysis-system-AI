@@ -1,3 +1,3 @@
-# Requirements para Railway - apunta a Entrega3
--r Entrega3/requirements.txt
+# Este archivo no se usa cuando hay Dockerfile
+# El Dockerfile usa Entrega3/requirements.txt directamente
 

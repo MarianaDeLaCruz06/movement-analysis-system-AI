@@ -1,9 +1,11 @@
+# Este archivo no se usa cuando Railway detecta Dockerfile
+# Se mantiene por compatibilidad pero Railway usará el Dockerfile de la raíz
 [build]
-builder = "NIXPACKS"
-watchPatterns = ["Entrega3/**"]
+builder = "DOCKERFILE"
+dockerfilePath = "../Dockerfile"
 
 [deploy]
-startCommand = "cd Entrega3 && streamlit run app_clasificador_movimiento.py --server.port $PORT --server.address 0.0.0.0 --server.headless true"
+# Railway usará el CMD del Dockerfile
 healthcheckPath = "/"
 healthcheckTimeout = 100
 restartPolicyType = "ON_FAILURE"
